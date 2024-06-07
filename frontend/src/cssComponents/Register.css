@@ -1,0 +1,87 @@
+/* Style pour le conteneur principal du formulaire d'inscription */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style pour le titre du formulaire */
+  .register-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  /* Style pour le formulaire */
+  .register-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  
+  /* Style pour les labels */
+  .register-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  /* Style pour les champs de saisie */
+  .register-form input,
+  .register-form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .register-form input:focus,
+  .register-form select:focus {
+    border-color: #007bff;
+  }
+  
+  /* Style pour le bouton */
+  .register-form button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .register-form button:hover {
+    background: #0056b3;
+  }
+  
+  /* Style pour le lien de connexion */
+  .register-container p {
+    margin-top: 15px;
+    color: #666;
+  }
+  
+  .register-container p a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .register-container p a:hover {
+    color: #0056b3;
+  }
+  
+  /* Style pour les messages d'erreur */
+  .register-container .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

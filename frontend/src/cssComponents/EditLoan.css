@@ -1,0 +1,58 @@
+/* Conteneur principal */
+.edit-loan-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .edit-loan-header {
+    background-color: #022c4e;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulaire */
+  .edit-loan-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-loan-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .edit-loan-form input[type="text"],
+  .edit-loan-form input[type="date"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 97%;
+  }
+  
+  .edit-loan-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .edit-loan-form button:hover {
+    background-color: #0056b3;
+  }
+  

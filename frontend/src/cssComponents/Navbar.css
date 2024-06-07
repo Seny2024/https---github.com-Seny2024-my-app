@@ -1,0 +1,42 @@
+/* NavBar.css */
+
+.navbar {
+    position: fixed; /* Fixe la navbar en haut */
+    top: 0;
+    width: 100%; /* Prend toute la largeur de l'écran */
+    background-color: #022c4e; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    display: flex;
+    justify-content: space-around; /* Espacement égal entre les liens */
+    align-items: center; /* Aligne les éléments au centre verticalement */
+    padding: 1rem; /* Espacement intérieur */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre subtile pour l'effet de profondeur */
+    z-index: 1000; /* Assure que la navbar reste au-dessus des autres contenus */
+  }
+  
+  .navbar a {
+    color: white; /* Couleur des liens */
+    text-decoration: none; /* Enlève la décoration des liens */
+    padding: 0.5rem 1rem; /* Espacement intérieur des liens */
+    transition: background-color 0.3s; /* Animation de changement de couleur de fond */
+  }
+  
+  .navbar a:hover {
+    background-color: #575757; /* Couleur de fond au survol */
+    border-radius: 5px; /* Coins arrondis au survol */
+  }
+  
+  .navbar button {
+    background-color: #e74c3c; /* Couleur de fond des boutons */
+    color: white; /* Couleur du texte des boutons */
+    border: none; /* Pas de bordure */
+    padding: 0.5rem 1rem; /* Espacement intérieur */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s; /* Animation de changement de couleur de fond */
+    border-radius: 5px; /* Coins arrondis */
+  }
+  
+  .navbar button:hover {
+    background-color: #c0392b; /* Couleur de fond des boutons au survol */
+  }
+  

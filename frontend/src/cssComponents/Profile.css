@@ -1,0 +1,70 @@
+/* Conteneur principal */
+.profile-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .profile-header {
+    background-color: #575757;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Informations utilisateur */
+  .profile-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .profile-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #333;
+  }
+  
+  .profile-info p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .profile-info i {
+    margin-right: 15px;
+    color: #007bff;
+    font-size: 20px;
+  }
+  
+  /* Boutons */
+  .profile-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-buttons a, .profile-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .profile-buttons a:hover, .profile-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Liens */
+  .profile-container a {
+    text-decoration: none;
+  }
+  

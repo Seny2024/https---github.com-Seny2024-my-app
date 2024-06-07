@@ -1,0 +1,155 @@
+/* Conteneur principal */
+.books-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.books-header {
+  background-color: #575757;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Bouton de retour */
+.books-container a {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.books-container a:hover {
+  text-decoration: underline;
+}
+
+/* Conteneur du champ de recherche et du bouton */
+.search-and-add-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+/* Champ de recherche */
+.search-container {
+  flex-grow: 1;
+}
+
+.search-container input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 98%;
+}
+
+/* Bouton "Ajouter un livre" */
+.add-book-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.add-book-button:hover {
+  background-color: #0056b3;
+}
+
+/* Tableau */
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.books-table th,
+.books-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.books-table th {
+  background-color: #f2f2f2;
+}
+
+.books-table td {
+  background-color: #fff;
+}
+
+.books-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Icônes dans le tableau */
+.books-table .icon-container {
+  display: flex;
+  align-items: center; /* Centrer verticalement les icônes */
+}
+
+.books-table .icon-container button {
+  background-color: #5589c0;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.books-table .icon-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Ajout d'espacement entre les icônes */
+.books-table .icon-container button + button {
+  margin-left: 8px; /* Espacement entre les icônes */
+}
+
+/* Style réactif pour le tableau */
+@media (max-width: 768px) {
+  .books-table,
+  .books-table thead,
+  .books-table tbody,
+  .books-table th,
+  .books-table td,
+  .books-table tr {
+    display: block;
+  }
+
+  .books-table thead tr {
+    display: none;
+  }
+
+  .books-table tr {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .books-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: none;
+  }
+
+  .books-table td::before {
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: left;
+    font-weight: bold;
+  }
+}

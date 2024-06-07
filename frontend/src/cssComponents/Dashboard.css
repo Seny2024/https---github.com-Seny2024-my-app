@@ -1,0 +1,75 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre les éléments horizontalement */
+  justify-content: center; /* Centre les éléments verticalement */
+  min-height: 100vh; /* Assure que le conteneur prend toute la hauteur de l'écran */
+  padding-top: 60px; /* Ajustez en fonction de la hauteur de votre navbar */
+}
+
+.dashboard-header {
+  text-align: center; /* Centre le texte de l'en-tête */
+}
+
+.dashboard-welcome {
+  color: #555;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center; /* Centre le texte */
+}
+
+.dashboard-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre les boutons horizontalement */
+  gap: 10px; /* Espacement entre les boutons */
+}
+
+.dashboard-buttons a {
+  text-decoration: none; /* Enlève la décoration des liens */
+}
+
+.dashboard-buttons button {
+  background-color: #007bff; /* Couleur de fond des boutons */
+  color: white; /* Couleur du texte des boutons */
+  border: none; /* Pas de bordure */
+  padding: 10px 20px; /* Espacement intérieur */
+  font-size: 16px; /* Taille de la police */
+  cursor: pointer; /* Curseur en forme de main */
+  transition: background-color 0.3s; /* Animation de changement de couleur de fond */
+  border-radius: 5px; /* Coins arrondis */
+}
+
+.dashboard-buttons button:hover {
+  background-color: #0056b3; /* Couleur de fond des boutons au survol */
+}
+
+/* CSS pour le bloc entourant le bouton */
+.books-button-container {
+  text-align: center;
+  border: 2px solid #d0d8e1;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 30%;
+  width: 35%;
+  height: 25%;
+}
+
+/* CSS pour le bouton "Visualiser tous les livres" */
+.view-all-books-button {
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-size: 25px;
+}
+
+.books-button-container:hover {
+  background-color: #698aad;
+}
